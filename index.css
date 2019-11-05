@@ -8,6 +8,31 @@ html, body {
   padding: 0;
   margin: 0;
 }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+
+<!--https://bubbihaus.com/-->
+
+<script type="text/javascript">
+    var elementPosition = $('#header_nav').offset();
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > elementPosition.top) {
+            $('#header_nav').css('position', 'fixed').css('top', '0');
+        } else {
+            $('#header_nav').css('position', 'static');
+        }
+     });
+</script>
+</body>
+</html>
+
 body {
   background-color: #00fa92;
   font-family: 'Quicksand';
