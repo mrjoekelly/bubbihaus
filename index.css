@@ -22,10 +22,10 @@ a{
   background: url(https://i.imgur.com/r2SUsaG.jpg) no-repeat center top;
   background-size: 75%;
   position: fixed;
-  height:100%;
-  bottom: 70px;
-  right: 70px;
-  left: 70px;
+  height:75%;
+  bottom: 100px;
+  right: 100px;
+  left: 100px;
   top: 50px;
 }
 
