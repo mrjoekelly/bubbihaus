@@ -19,14 +19,10 @@ a{
 }
 
 #header {
-background-image: url(https://i.imgur.com/r2SUsaG.jpg);
+background-image: url('https://i.imgur.com/r2SUsaG.jpg');
 background-repeat: repeat-x;
 width: 100%;
 height: 170px;
-bottom: 100px;
-right: 10px;
-left: 10px;
-top: 50px;
 }
 .shadowone
 {
@@ -34,10 +30,6 @@ width: 100%;
 position: absolute;
 left: -1px;
 top: 172px;
-bottom: 100px;
-right: 10px;
-left: 10px;
-top: 50px;
 display: inline-block;
 }
 .shadowtwo
@@ -46,10 +38,6 @@ width: 100%;
 position: absolute;
 left: -1px;
 top: 173px;
-bottom: 100px;
-right: 10px;
-left: 10px;
-top: 50px;
 display: inline-block;
 }
 .shadowthree
@@ -58,10 +46,6 @@ width: 100%;
 position: absolute;
 left: -1px;
 top: 176px;
-bottom: 100px;
-right: 10px;
-left: 10px;
-top: 50px;
 display: inline-block;
 }
 
