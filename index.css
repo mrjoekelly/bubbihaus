@@ -146,8 +146,9 @@ $hrSize: 5px;
 }
 
 .joepoems{
-margin-left: 35%;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 .bubbiradio6{
