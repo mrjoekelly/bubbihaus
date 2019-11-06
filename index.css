@@ -154,6 +154,10 @@ margin-left: 35%;
 margin-right: 15%;
 }
 
+.bubbiradio6 img:hover{
+  transform: rotate(330deg);
+}
+
 #bubbiradio6img{
   width:100%;
 }
@@ -183,6 +187,10 @@ margin-right: 15%;
 
 .bubbiradio5{
   margin-left: 15%;
+}
+
+.bubbiradio5 img:hover{
+  transform: rotate(30deg);
 }
 
 #bubbiradio5img{
