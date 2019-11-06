@@ -30,6 +30,19 @@ a{
 }
 
 
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: 1%;
+  opacity: 1;
+
+}
+
+#logo img{
+  height:70px;
+}
+
+
 .navbar{
   position:fixed;
   top:2%;
