@@ -190,7 +190,7 @@ hr{
        -ms-animation: fadein 48s; /* Internet Explorer */
         -o-animation: fadein 48s; /* Opera < 12.1 */
            animation: fadein 48s;
-    }
+}
 
   .line12{
   -webkit-animation: fadein 52s; /* Safari, Chrome and Opera > 12.1 */
@@ -198,17 +198,15 @@ hr{
        -ms-animation: fadein 52s; /* Internet Explorer */
         -o-animation: fadein 52s; /* Opera < 12.1 */
            animation: fadein 52s;
-        }
+}
 
   .line13{
   -webkit-animation: fadein 56s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadein 56s; /* Firefox < 16 */
        -ms-animation: fadein 56s; /* Internet Explorer */
         -o-animation: fadein 56s; /* Opera < 12.1 */
-           animation: fadein 56s;
-   
+           animation: fadein 56s;  
 } 
-
 
 
 @keyframes fadein {
