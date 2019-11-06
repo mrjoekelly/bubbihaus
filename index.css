@@ -159,9 +159,9 @@ $hrSize: 5px;
 }
 
 .joepoems{
-    width: 100px;
-  height: 100px;
-  display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 .bubbiradio6{
