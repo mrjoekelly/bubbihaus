@@ -63,15 +63,15 @@ a{
 }
 
 .player{
-  margin-left: 8%;
-  margin-top:20%;
+  margin-left: -10%;
+  margin-top:13%;
   display: flex;
 }
 
 h1{
   font-family: 'Quicksand';
   font-size: 40pt;
-  color:maroon;
+  color:navy;
 }
 
 audio{

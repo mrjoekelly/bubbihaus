@@ -9,7 +9,7 @@ html, body {
 }
 body {
     background-color: #00fa92;
-    background-image: url(https://i.imgur.com/ANejmvz.png);
+    background-image: url(https://i.imgur.com/AYsnwiC.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -70,10 +70,19 @@ a{
   width:4%;
 }
 
+}
+
+.container1{
+  margin-left: 70%;
+  margin-top: 70%;
+
+}
+
 .player{
-  margin-left: 8%;
-  margin-top:20%;
+  margin-left: -10%;
+  margin-top:10%;
   display: flex;
+
 }
 
 h1{
