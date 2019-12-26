@@ -53,7 +53,7 @@ a:hover{
 
 #vol2mark{
   width:4%;
-  
+
 }
 
 .title{
@@ -211,8 +211,8 @@ hr{
       -moz-animation: fadein 56s; /* Firefox < 16 */
        -ms-animation: fadein 56s; /* Internet Explorer */
         -o-animation: fadein 56s; /* Opera < 12.1 */
-           animation: fadein 56s;  
-} 
+           animation: fadein 56s;
+}
 
 
 @keyframes fadein {
