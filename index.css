@@ -175,12 +175,16 @@ $hrSize: 5px;
   margin-bottom: 3%;
 }
 
-.manymaras{
+.snl{
   margin-left: 20%;
 }
 
-.chasingwarren{
+.manymaras{
   margin-left: 2%;
+}
+
+.chasingwarren{
+  center
 }
 
 .alienscoming{
@@ -267,24 +271,29 @@ margin-right: 10%;
   margin-top: -6%;
 }
 
+#snlimg{
+  width:125%;
+  margin-top: 30%;
+}
+
 #manymarasimg{
   width:125%;
-  margin-top: 0%;
+  margin-top: 20%;
 }
 
 #chasingwarrenimg{
   width:125%;
-  margin-top: 5%;
+  margin-top: 25%;
 }
 
 #alienscomingimg{
   width:125%;
-  margin-top: -10%;
+  margin-top: 15%;
 }
 
 #schittscreekimg{
   width:125%;
-  margin-top: 5%;
+  margin-top: 35%;
 }
 
 
