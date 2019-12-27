@@ -157,14 +157,78 @@ $hrSize: 5px;
   top: 100%;
 }
 
+.playshelf{
+  display:flex;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 10%;
+}
+
+.couple2{
+  display:flex;
+  text-align: center;
+  margin: 0 auto;
+}
+.couple2{
+  text-align: center;
+  margin-top: -32%;
+  margin-bottom: 3%;
+}
+
+.manymaras{
+  margin-left: 20%;
+}
+
+.chasingwarren{
+  margin-left: 2%;
+}
+
+.alienscoming{
+margin-right: 2%;
+}
+
+
+.schittscreek{
+margin-right: 20%;
+}
+
+
 .bubbiradio7{
   display:flex;
   text-align: center;
   margin: 0 auto;
 }
 
+.bubbiradio7{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+
 .couple{
   display:flex;
+}
+
+.towelgif{
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 7%;
+}
+
+.bubbiradio5{
+  margin-left: 10%;
+}
+
+.bubbiradio5 img:hover{
+  transform: rotate(30deg);
+}
+
+.bubbiradio6{
+margin-right: 10%;
+}
+
+.bubbiradio6 img:hover{
+  transform: rotate(330deg);
 }
 
 .joepoems{
@@ -172,12 +236,15 @@ $hrSize: 5px;
     margin: 0 auto;
 }
 
-.bubbiradio6{
-margin-right: 15%;
+
+#playshelfimg{
+  width:90%;
+  margin-top: -13%;
 }
 
-.bubbiradio6 img:hover{
-  transform: rotate(330deg);
+#bubbiradio7img{
+  width:80%;
+  margin-top: -17%;
 }
 
 #bubbiradio5img{
@@ -191,7 +258,7 @@ margin-right: 15%;
 }
 
 #towellook{
-  width:100%;
+  width:75%;
   margin-top: -60%;
 }
 
@@ -200,9 +267,24 @@ margin-right: 15%;
   margin-top: -6%;
 }
 
-#bubbiradio7img{
-  width:80%;
-  margin-top: -20%;
+#manymarasimg{
+  width:125%;
+  margin-top: 0%;
+}
+
+#chasingwarrenimg{
+  width:125%;
+  margin-top: 5%;
+}
+
+#alienscomingimg{
+  width:125%;
+  margin-top: -10%;
+}
+
+#schittscreekimg{
+  width:125%;
+  margin-top: 5%;
 }
 
 
@@ -216,35 +298,7 @@ margin-right: 15%;
   width:100%;
 }
 
-.bubbiradio7{
-  text-align: center;
-  margin-top: 10%;
-  margin-bottom: 3%;
-}
 
-.towelgif{
-  text-align: center;
-  margin-top: 8%;
-  margin-bottom: 7%;
-}
-
-
-.bubbiradio5{
-  margin-left: 15%;
-}
-
-.bubbiradio5 img:hover{
-  transform: rotate(30deg);
-}
-
-#bubbiradio5img{
-  width:100%;
-}
-
-#towellook{
-  width:75%;
-  margin-left: 8%;
-}
 
 @media only screen
   and (min-device-width: 320px)
