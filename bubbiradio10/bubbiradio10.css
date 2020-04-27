@@ -1,0 +1,136 @@
+
+
+ @import "compass/css3";
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+body {
+  background-color: #00fa92;
+  background-image: url(https://imgur.com/h24Dzm3.png);
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  font-family: 'Quicksand';
+}
+
+a{
+  text-decoration: none;
+}
+
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: 1%;
+  opacity: 1;
+
+}
+
+#logo img{
+  height:70px;
+}
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+  font-family: 'Quicksand';
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;
+  opacity: 1;
+}
+
+
+a:link{
+  color: white;
+}
+
+.navbar a:hover{
+  color:#00fa92;
+
+}
+
+a:hover{
+  color:#00fa92
+}
+
+a:visted{
+  color:grey;
+}
+
+#vol1mark{
+  width:4%;
+}
+
+#vol2mark{
+  width:4%;
+}
+
+.player{
+  margin-left: 60%;
+  margin-top:17%;
+  display: flex;
+}
+
+h1{
+  font-family: 'Quicksand';
+  font-size: 40pt;
+  color:navy;
+}
+
+audio{
+  margin-left:18%;
+  margin-top:5%;
+}
+
+.copyright{
+  margin-left: 25%;
+  margin-top: 1%;
+  font-size: 20pt;
+}
+
+
+#featuring{
+  font-size:
+}
+
+
+#signature{
+  margin-bottom: 5%;
+  text-align: center;
+
+}
+
+#fivelist{
+  width: 100%;
+  z-index: -100;
+  position: fixed;
+  right:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+a:link{
+  color:white;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
+}
