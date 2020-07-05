@@ -196,6 +196,12 @@ margin-right: 2%;
 margin-right: 20%;
 }
 
+.bubbiradio11{
+  display:flex;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .couple3{
   display:flex;
   text-align: center;
@@ -289,6 +295,11 @@ margin-right: 10%;
 #playshelfimg{
   width:90%;
   margin-top: -13%;
+}
+
+#bubbiradio11img{
+  width:70%;
+  margin-top: -1%;
 }
 
 #bubbiradio105img{
