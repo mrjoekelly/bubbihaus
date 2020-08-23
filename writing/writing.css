@@ -1,0 +1,173 @@
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Quicksand';
+}
+
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: .5%;
+  margin-top: 2%;
+  z-index: 100;
+
+}
+
+#logo img{
+  height:70px;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+
+}
+
+a:hover{
+  color:#00fa92;
+}
+
+
+
+h1{
+  text-align: center;
+  color:white;
+}
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;
+}
+
+.navbar a:hover{
+  color:#00fa92;
+}
+
+#vol1mark{
+  width:4%;
+}
+
+#vol2mark{
+  width:4%;
+}
+
+#vol3mark{
+  width:4%;
+}
+
+
+#video{
+  width: 100%;
+  z-index: -100;
+  position: fixed;
+  right:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.container1{
+  text-align: center;
+}
+
+
+.container1 img{
+  width:30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.one{
+  margin-top: 7%;
+}
+.two{
+  margin-top: 7%;
+
+}
+.three{
+  margin-top: 7%;
+
+}
+
+.four{
+  margin-top: 2%;
+
+}
+
+.five{
+  margin-top: 2%;
+
+}
+
+.six{
+  margin-top: 2%;
+
+}
+.seven{
+  margin-top: 2%;
+
+}
+.eight{
+  margin-top: 2%;
+
+}
+.nine{
+  margin-top: 2%;
+
+}
+.ten{
+  margin-top: 2%;
+
+}
+.tenpointfive{
+  margin-top: 2%;
+
+}
+.eleven{
+  margin-top: 2%;
+
+}
+
+
+.footer{
+  width:100%;
+  height:auto;
+}
+
+.footer img{
+  width:100%;
+}
+
+.redvelvet{
+  margin-left: 32%;
+  margin-right:15%;
+  margin-top: 5%;
+}
+.redvelvet img{
+  height:500px;
+
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

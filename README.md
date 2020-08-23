@@ -1,3 +1,3 @@
 # bubbihaus
 Bubbi Haus
-bubbi reborn, like a phoenix and sumsuch
+Joe Kelly 2020
