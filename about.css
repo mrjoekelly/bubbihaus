@@ -10,12 +10,14 @@ html, body {
 }
 body {
   background-color: #447DC3;
+  color:white;
   font-family: 'Quicksand';
 }
 
 
 a{
   text-decoration: none;
+
 }
 
 #header {
@@ -171,28 +173,51 @@ $hrSize: 5px;
   margin: 0 auto;
 }
 
-
-.bubbiradio7{
-  display:flex;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.bubbiradio7{
-  text-align: center;
-  margin-top: 10%;
-  margin-bottom: 3%;
-}
-
 #smallsong{
   width:75%;
   margin-top: -1%;
 }
 
+.description{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20pt;
+  text-align:center;
+  width:100%;
+}
 
-#bubbiradio7img{
-  width:80%;
-  margin-top: -23%;
+.descriptiontext{
+  margin-left:50%;
+  margin: auto;
+  text-align: justify;
+  width:50%;
+}
+
+.social{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 10pt;
+  text-align:center;
+  width:100%;
+}
+
+.social{
+  margin-left:50%;
+  margin: auto;
+  text-align: center;
+  width:50%;
+}
+
+.man{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 10pt;
+  text-align:center;
+  width:100%;
+}
+
+.man{
+  margin-left:50%;
+  margin: auto;
+  text-align: center;
+  width:50%;
 }
 
 .footer{
@@ -204,8 +229,6 @@ $hrSize: 5px;
 .footer img{
   width:100%;
 }
-
-
 
 @media only screen
   and (min-device-width: 320px)
