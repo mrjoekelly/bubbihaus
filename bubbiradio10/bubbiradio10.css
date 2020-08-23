@@ -69,11 +69,19 @@ a:visted{
   color:grey;
 }
 
+#recklist{
+  width:6%;
+}
+
 #vol1mark{
   width:4%;
 }
 
 #vol2mark{
+  width:4%;
+}
+
+#vol3mark{
   width:4%;
 }
 
