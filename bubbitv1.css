@@ -3,20 +3,24 @@
  @import "compass/css3";
 
 
-html, body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-body {
-  background-color: #447DC3;
-  font-family: 'Quicksand';
-}
+ html, body {
+   height: 100%;
+   padding: 0;
+   margin: 0;
+ }
+ body {
+   background-color: Black;
+   color:white;
+   font-family: Quicksand;
+   text-align:center;
+   width:100%;
+ }
 
 
-a{
-  text-decoration: none;
-}
+ a{
+   text-decoration: none;
+
+ }
 
 #header {
   background: url(https://imgur.com/tE65jbJ.png) no-repeat center top;
@@ -59,7 +63,6 @@ a{
 
 }
 
-
 .navbar a:hover{
   opacity:0.5;
   transition-timing-function: ease-in;
@@ -71,6 +74,10 @@ a:hover{
   opacity:0.85;
   transition-timing-function: ease-in;
   transition: .5s;
+}
+
+#recklist{
+  width:6%;
 }
 
 #vol1mark{
@@ -161,23 +168,17 @@ $hrSize: 5px;
   top: 100%;
 }
 
+.description{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20pt;
+  text-align:center;
+  width:100%;
+}
+
 .smallsong{
   display:flex;
   text-align: center;
   margin: 0 auto;
-}
-
-
-.bubbiradio7{
-  display:flex;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.bubbiradio7{
-  text-align: center;
-  margin-top: 10%;
-  margin-bottom: 3%;
 }
 
 #smallsong{
@@ -185,11 +186,6 @@ $hrSize: 5px;
   margin-top: -1%;
 }
 
-
-#bubbiradio7img{
-  width:80%;
-  margin-top: -23%;
-}
 
 .footer{
   width:100%;
