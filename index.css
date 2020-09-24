@@ -188,18 +188,6 @@ $hrSize: 5px;
 }
 
 
-.footer{
-  width:100%;
-  height:auto;
-  margin-bottom: -10%;
-}
-
-.footer img{
-  width:100%;
-}
-
-
-
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 1227px){
@@ -220,12 +208,6 @@ $hrSize: 5px;
   height: 960%;
   top: 100%;
 }
-
-.footer img{
-  opacity: 0;
-}
-
-
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
