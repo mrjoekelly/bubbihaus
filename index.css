@@ -73,6 +73,10 @@ a:hover{
   transition: .5s;
 }
 
+#illuminatiinterns{
+  width:15%;
+}
+
 #recklist{
   width:6%;
 }
