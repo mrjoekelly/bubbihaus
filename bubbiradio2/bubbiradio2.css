@@ -11,7 +11,7 @@ html, body {
 }
 body {
   background-color: #000000;
-  background-image: url(https://i.imgur.com/DKBmcLY.png);
+  background-image: url(https://imgur.com/GcxsPeX.png);
 
   background-size: 100%;
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ a:visted{
 
 .player{
   margin-left: 60%;
-  margin-top:17%;
+  margin-top:22%;
   display: flex;
 }
 
