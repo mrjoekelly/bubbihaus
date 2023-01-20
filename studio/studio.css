@@ -1,0 +1,266 @@
+
+
+ @import "compass/css3";
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #447DC3;
+  color:white;
+  font-family: 'Quicksand';
+}
+
+
+a{
+  text-decoration: none;
+
+}
+
+#header {
+  background: url(https://imgur.com/tE65jbJ.png) no-repeat center top;
+  background-size: 100% auto;
+  position: fixed;
+  height:100%;
+  bottom: 70px;
+  right: 70px;
+  left: 70px;
+  top: 50px;
+}
+
+
+#logo{
+  position:fixed;
+  text-align: left;
+  margin-left: 1%;
+  opacity: 1;
+
+}
+
+#logo img{
+  height:70px;
+}
+
+
+.navbar{
+  position:fixed;
+  top:2%;
+  right: 2%;
+  width: 100%;
+  text-align: right;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 0.25%;
+  color:white;
+
+}
+
+
+.navbar a:hover{
+  opacity:0.5;
+  transition-timing-function: ease-in;
+  transition: .5s;
+
+}
+
+a:hover{
+  opacity:0.85;
+  transition-timing-function: ease-in;
+  transition: .5s;
+}
+
+#illuminatiinterns{
+  width:15%;
+}
+
+#recklist{
+  width:6%;
+}
+
+#vol1mark{
+  width:4%;
+}
+
+#vol2mark{
+  width:4%;
+}
+
+#vol3mark{
+  width:4%;
+}
+
+  .center {
+    background: rgba(0,0,0,0.15);
+    text-align: center;
+    position: absolute;
+    color: #00fa92;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+    .middle {
+      position: absolute;
+
+      right: 0;
+      left: 0;
+      top:0;
+    }
+  }
+
+.middle img{
+  margin-top: 15px;
+}
+
+$pageTopDecrease: 20px;
+$hrBoxBorderLength: 40px;
+$hrBgColor: #447DC3;
+$hrColor: #447DC3;
+$hrSize: 5px;
+
+#pageHr {
+  background: $hrColor;
+  position: relative;
+  height: $hrSize;
+  display: flex;
+  right: 0px;
+  left: 0px;
+  top: 90%;
+  z-index: 1;
+
+  > i {
+    margin: -($hrBoxBorderLength/2+$hrSize);
+    border: $hrSize solid $hrColor;
+    height: $hrBoxBorderLength;
+    width: $hrBoxBorderLength;
+    background: $hrBgColor;
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    @include transform(rotate(45deg));
+
+    > i {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      line-height: $hrBoxBorderLength*0.92;
+      font-size: $hrBoxBorderLength/2;
+      height: $hrBoxBorderLength;
+      width: $hrBoxBorderLength;
+      text-align: center;
+      position: absolute;
+      color: $hrColor;
+      display: block;
+      @include transform(rotate(-45deg));
+    }
+  }
+}
+
+#page {
+  //border-top: $pageTopDecrease solid $hrColor;
+  background: #447DC3;
+  position: relative;
+  //margin-top: -($pageTopDecrease);
+  height: auto;
+  top: 100%;
+}
+
+.smallsong{
+  display:flex;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#smallsong{
+  width:75%;
+  margin-top: -1%;
+}
+
+.description{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20pt;
+  text-align:center;
+  width:100%;
+}
+
+.descriptiontext{
+  margin-left:50%;
+  margin: auto;
+  text-align: justify;
+  width:50%;
+}
+
+.social{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 10pt;
+  text-align:center;
+  width:100%;
+}
+
+.social{
+  margin-left:50%;
+  margin: auto;
+  text-align: center;
+  width:50%;
+}
+
+.man{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 10pt;
+  text-align:center;
+  width:100%;
+}
+
+.man{
+  margin-left:50%;
+  margin: auto;
+  text-align: center;
+  width:50%;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+  margin-bottom: -10%;
+}
+
+.footer img{
+  width:100%;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 1227px){
+/* CSS Styles */
+
+#pageHr {
+  background: $hrColor;
+  position: relative;
+  height: $hrSize;
+  z-index: 1;
+
+}
+
+#page {
+  //border-top: $pageTopDecrease solid $hrColor;
+  position: absolute;
+  //margin-top: -($pageTopDecrease);
+  height: 960%;
+  top: 100%;
+}
+
+.footer img{
+  opacity: 0;
+}
+
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
